@@ -39,3 +39,64 @@ h1 {
   text-size: 1.5rem;
   color: white;
 }
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  background: #1e1e1e; /* Dark background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Button Base Style */
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Home Button */
+.home-button {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(255, 65, 108, 0.3);
+}
+
+.home-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  box-shadow: 0px 6px 12px rgba(255, 65, 108, 0.5);
+}
+
+/* GitHub Button */
+.github-button {
+  background: #333;
+  color: white;
+  border: 1px solid #444;
+  gap: 8px;
+}
+
+.github-button:hover {
+  background: #555;
+  transform: scale(1.1);
+}
+
+/* GitHub Logo */
+.github-logo {
+  width: 22px;
+  height: 22px;
+}
